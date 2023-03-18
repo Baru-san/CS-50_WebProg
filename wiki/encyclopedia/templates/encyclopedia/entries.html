@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Content
+{% endblock %}
+
+{% block body %}
+ 
+<h1>content dari</h1>
+<p>{{ content }}</p>
+
+<a href="{% url 'index' %}">kembali</a>
+{% endblock %}

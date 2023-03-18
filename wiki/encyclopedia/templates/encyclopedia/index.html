@@ -9,8 +9,9 @@
 
     <ul>
         {% for entry in entries %}
-            <li>{{ entry }}</li>
+            <li><a href="entries/{{entry}}">{{ entry }}</a></li>
         {% endfor %}
+        <li><a href="entries/{{entry}}">tes</a></li>
     </ul>
 
 {% endblock %}
